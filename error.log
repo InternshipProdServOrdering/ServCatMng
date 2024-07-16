@@ -1,0 +1,75 @@
+{"level":"error","message":"failed to start Express Server"}
+{"level":"error","message":"failed to start Express Server"}
+{"level":"error","message":"Error launching server: URL_PORT is not defined","stack":"ReferenceError: URL_PORT is not defined\n    at launchServer (C:\\Users\\Аня\\Desktop\\2\\index.js:43:52)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"}
+{"level":"error","message":"failed to start Express Server"}
+{"level":"error","message":"failed to start Express Server"}
+{"level":"error","message":"failed to start Express Server"}
+{"level":"error","message":"failed to start Express Server"}
+{"level":"error","message":"failed to start Express Server"}
+{"level":"error","message":"failed to start Express Server"}
+{"level":"error","message":"failed to start Express Server"}
+{"level":"error","message":"failed to start Express Server"}
+{"level":"error","message":"failed to start Express Server"}
+{"level":"error","message":"failed to start Express Server"}
+{"level":"error","message":"Failed to start Express Server"}
+{"level":"error","message":"Failed to start Express Server"}
+{"level":"error","message":"Failed to start Express Server:"}
+{"level":"error","message":"Failed to start Express Server"}
+{"level":"error","message":"failed to start Express Server"}
+{"level":"error","message":"failed to start Express Server"}
+{"level":"error","message":"failed to start Express Server"}
+{"level":"error","message":"failed to start Express Server"}
+{"level":"error","message":"failed to start Express Server"}
+{"level":"error","message":"Error parsing the YAML file C:\\Users\\Аня\\Desktop\\2\\api\\openapi.yaml:"}
+{"level":"error","message":"Error parsing the YAML file C:\\Users\\Аня\\Desktop\\2\\api\\openapi.yaml:"}
+{"level":"error","message":"failed to save the updated/modified API specification reloadAPI is not a function","stack":"TypeError: reloadAPI is not a function\n    at updateAPISpecification (C:\\Users\\Аня\\Desktop\\2\\utils\\fixes.js:47:7)\n    at ExpressServer.initializeSchema (C:\\Users\\Аня\\Desktop\\2\\expressServer.js:68:7)\n    at new ExpressServer (C:\\Users\\Аня\\Desktop\\2\\expressServer.js:55:14)\n    at launchServer (C:\\Users\\Аня\\Desktop\\2\\index.js:57:21)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"}
+{"level":"error","message":"Error parsing the YAML file C:\\Users\\Аня\\Desktop\\2\\api\\openapi.yaml:"}
+{"level":"error","message":"Error parsing the YAML file C:\\Users\\Аня\\Desktop\\2\\api\\openapi.yaml:"}
+{"level":"error","message":"Error parsing the YAML file C:\\Users\\Аня\\Desktop\\2\\api\\openapi.yaml:"}
+{"level":"error","message":"Error launching server: openapi is not defined","stack":"ReferenceError: openapi is not defined\n    at ExpressServer.setupMiddleware (C:\\Users\\Аня\\Desktop\\2\\expressServer.js:101:42)\n    at new ExpressServer (C:\\Users\\Аня\\Desktop\\2\\expressServer.js:56:12)\n    at launchServer (C:\\Users\\Аня\\Desktop\\2\\index.js:57:21)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"}
+{"level":"error","message":"Error launching server: openapi is not defined","stack":"ReferenceError: openapi is not defined\n    at ExpressServer.setupMiddleware (C:\\Users\\Аня\\Desktop\\2\\expressServer.js:116:21)\n    at new ExpressServer (C:\\Users\\Аня\\Desktop\\2\\expressServer.js:56:12)\n    at launchServer (C:\\Users\\Аня\\Desktop\\2\\index.js:57:21)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"}
+{"level":"error","message":"Express Server initialization aborted due to critical YAML file error."}
+{"level":"error","message":"Express Server initialization aborted due to critical YAML file error."}
+{"level":"error","message":"Express Server initialization aborted due to critical YAML file error."}
+{"level":"error","message":"Express Server initialization aborted due to critical YAML file error."}
+{"level":"error","message":"Error parsing the YAML file C:\\Users\\Аня\\Desktop\\2\\api\\openapi.yaml:"}
+{"level":"error","message":"Error parsing the YAML file C:\\Users\\Аня\\Desktop\\2\\api\\openapi.yaml:"}
+{"level":"error","message":"could not write message: KafkaJSNumberOfRetriesExceeded: Connection error: "}
+{"level":"error","message":"failed to start Express Server"}
+{"level":"error","message":"failed to start Express Server"}
+{"level":"error","message":"failed to start Express Server"}
+{"level":"error","message":"failed to start Express Server"}
+{"level":"error","message":"failed to start Express Server"}
+{"level":"error","message":"failed to start Express Server"}
+{"level":"error","message":"show:: Missing required ID parameter"}
+{"level":"error","message":"show:: Missing required ID parameter"}
+{"level":"error","message":"show:: Missing required ID parameter"}
+{"level":"error","message":"show:: Missing required ID parameter"}
+{"level":"error","message":"show:: Missing required ID parameter"}
+{"level":"error","message":"show:: Missing required ID parameter"}
+{"level":"error","message":"show:: Missing required ID parameter"}
+{"level":"error","message":"show:: Missing required ID parameter"}
+{"level":"error","message":"show:: Missing required ID parameter"}
+{"level":"error","message":"show:: Missing required ID parameter"}
+{"level":"error","message":"show:: Missing required ID parameter"}
+{"level":"error","message":"show:: Missing required ID parameter"}
+{"level":"error","message":"show:: Missing required ID parameter"}
+{"level":"error","message":"show:: Missing required ID parameter"}
+{"level":"error","message":"show:: Missing required ID parameter"}
+{"level":"error","message":"show:: Missing required ID parameter"}
+{"level":"error","message":"show:: Missing required ID parameter"}
+{"level":"error","message":"show:: Missing required ID parameter"}
+{"level":"error","message":"show:: Missing required ID parameter"}
+{"level":"error","message":"show:: Missing required ID parameter"}
+{"level":"error","message":"show:: Missing required ID parameter"}
+{"level":"error","message":"show:: Missing required ID parameter"}
+{"level":"error","message":"show:: Missing required ID parameter"}
+{"level":"error","message":"Error launching server: Function yaml.safeLoad is removed in js-yaml 4. Use yaml.load instead, which is now safe by default.","stack":"Error: Function yaml.safeLoad is removed in js-yaml 4. Use yaml.load instead, which is now safe by default.\n    at Object.safeLoad (C:\\Users\\Аня\\Desktop\\2\\node_modules\\js-yaml\\index.js:10:11)\n    at getSwaggerDoc (C:\\Users\\Аня\\Desktop\\2\\utils\\swaggerUtils.js:575:20)\n    at getServerAndBasePath (C:\\Users\\Аня\\Desktop\\2\\utils\\swaggerUtils.js:585:14)\n    at getBasePath (C:\\Users\\Аня\\Desktop\\2\\utils\\swaggerUtils.js:596:22)\n    at ExpressServer.setupMiddleware (C:\\Users\\Аня\\Desktop\\2\\expressServer.js:51:22)\n    at new ExpressServer (C:\\Users\\Аня\\Desktop\\2\\expressServer.js:45:10)\n    at launchServer (C:\\Users\\Аня\\Desktop\\2\\index.js:57:21)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"}
+{"level":"error","message":"show:: Missing required ID parameter"}
+{"level":"error","message":"show:: Missing required ID parameter"}
+{"level":"error","message":"show:: Missing required ID parameter"}
+{"level":"error","message":"show:: Missing required ID parameter"}
+{"level":"error","message":"show:: Missing required ID parameter"}
+{"level":"error","message":"show:: Missing required ID parameter"}
+{"level":"error","message":"could not write message: KafkaJSNumberOfRetriesExceeded: Connection error: "}
+{"level":"error","message":"show:: Missing required ID parameter"}

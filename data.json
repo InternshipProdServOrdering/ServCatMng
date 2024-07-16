@@ -1,0 +1,175 @@
+{
+    "id": "3830",
+    "href": "https://mycsp.com:8080/tmf-api/serviceCatalogManagement/v4/serviceCatalog/3830",
+    "name": "IOT Catalog",
+    "description": "This service catalog describes IOT services that address the wholesale business segment.",
+    "version": "1.0",
+    "validFor": {
+    "startDateTime": "2023-07-11T20:40:53Z",
+    "endDateTime": "2023-07-12T20:40:53Z"
+    },
+    "lastUpdate": "2023-07-11T20:40:53Z",
+    "lifecycleStatus": "Active",
+    "relatedParty": [
+    {
+    "href": "https:/host:port/tmf-api/partyRoleManagement/v4/partyRole/4079",
+    "id": "4079",
+    "name": "Broadly Broad Ltd",
+    "role": "vendor",
+    "@referredType": "PartyRole",
+    "@type": "RelatedParty",
+    "@schemaLocation": "https://mycsp.com:8080/tmf-api/schema/EngagedParty/RelatedParty.schema.json ",
+    "@baseType": ""
+    }
+    ],
+    "category": [
+    {
+    "href": "https://mycsp.com:8080/tmf-api/serviceCatalogManagement/v4/category/7752",
+    "id": "7752",
+    "name": "IoT",
+    "@referredType": "ServiceCategory",
+    "@type": "ServiceCategoryRef",
+    "@schemaLocation": "https://mycsp.com:8080/tmf-api/schema/Service/ServiceCategoryRef.schema.json ",
+    "@baseType": ""
+    }
+    ],
+    "@type": "ServiceCatalog",
+    "@schemaLocation": "https://mycsp.com:8080/tmf-api/schema/Service/ServiceCatalog.schema.json ",
+    "@baseType": "Catalog"
+}
+
+
+
+
+
+{
+    "name": "Netflix",
+    "href": "http://serverlocation:port/catalogManagement/productOffering/5555555555555",
+    "description": "Netflix video streaming service for CSP customers",
+    "lastUpdate": "2024-07-15T00:00:00Z",
+    "lifecycleStatus": "Active",
+    "specCharacteristic": [
+        {
+            "id": "1",
+            "@type": "SpecificationCharacteristic",
+            "name": "No. of streams allowed",
+            "valueType": "Integer",
+            "characteristicValueSpecification": [
+                {
+                    "@type": "CharacteristicValueSpecification",
+                    "isDefault": true,
+                    "unitOfMeasure": "devices",
+                    "value": "2"
+                },
+                {
+                    "@type": "CharacteristicValueSpecification",
+                    "isDefault": false,
+                    "unitOfMeasure": "devices",
+                    "value": "5"
+                }
+                
+            ]
+        }
+    ],
+    "@type": "ServiceSpecification"
+}
+
+{
+    "name": "Max ",
+    "href": "http://serverlocation:port/catalogManagement/productOffering/5555555555555",
+    "description": "HBO Max video streaming service for CSP customers",
+    "lastUpdate": "2024-07-15T00:00:00Z",
+    "lifecycleStatus": "Active",
+    "specCharacteristic": [
+        {
+            "id": "1",
+            "@type": "SpecificationCharacteristic",
+            "name": "No. of streams allowed",
+            "valueType": "Integer",
+            "characteristicValueSpecification": [
+                {
+                    "@type": "CharacteristicValueSpecification",
+                    "isDefault": true,
+                    "unitOfMeasure": "devices",
+                    "value": "2"
+                },
+                {
+                    "@type": "CharacteristicValueSpecification",
+                    "isDefault": false,
+                    "unitOfMeasure": "devices",
+                    "value": "5"
+                }
+                
+            ]
+        }
+    ],
+    "@type": "ServiceSpecification"
+}
+
+
+{
+    "id": "1708",
+    "href": "https://mycsp.com:8080/tmf-
+    api/serviceCatalogManagement/v4/serviceCategory/1708",
+    "name": "Cloud Services",
+    "description": "A category to hold all available cloud service offers",
+    "version": "1.0",
+    "validFor": {
+    "startDateTime": "2017-08-24T00:00:00.000Z",
+    "endDateTime": "2021-03-25T00:00:00.000Z"
+    },
+    "lifecycleStatus": "Active",
+    "lastUpdate": "2020-08-25T00:00:00.000Z",
+    "isRoot": true,
+    "serviceCandidate": [
+    {
+    "href": "https://mycsp.com:8080/tmf-
+    api/serviceCatalogManagement/v4/serviceCandidate/5850",
+    "id": "5850",
+    "name": "Azure Kubernetes Service",
+    "version": "1.0",
+    "@referredType": "ServiceCandidate",
+    "@type": "ServiceCandidateRef",
+    "@schemaLocation": "https://mycsp.com:8080/tmf-
+    api/schema/Service/ServiceCandidateRef.schema.json ",
+    "@baseType": ""
+    }
+    ],
+    "category": [
+    {
+        "id": "5980",
+        "href": "https://mycsp.com:8080/tmf-
+        api/serviceCatalogManagement/v4/serviceCategory/5980",
+        "version": "1.0",
+        "name": "AzureCloudApp",
+        "@referredType": "ServiceCategory",
+        "@type": "ServiceCategoryRef",
+        "@schemaLocation": "https://mycsp.com:8080/tmf-
+        api/schema/Service/ServiceCategoryRef.schema.json ",
+        "@baseType": ""
+        }
+        ],
+        "@type": "ServiceCategory",
+        "@schemalLocation": "https://mycsp.com:8080/tmf-
+        api/schema/Service/ServiceCategory.schema.json",
+        "@baseType": "Category"
+    }
+
+
+
+
+    
+    {
+        "name": "Service Candidate for Netflix",
+        "description": "Service Candidate for Netflix video streaming service for CSP customers",
+        "lastUpdate": "2024-07-15T00:00:00Z",
+        "lifecycleStatus": "Active",
+        "@type": "ServiceCandidate",
+        "serviceSpecification": {
+            "id": "444",
+            "href": "http://serverlocation:port/catalogManagement/productOffering/5555555555555",
+            "name": "Netflix",
+            "@type": "ServiceSpecificationRef",
+            "@referredType": "CustomerFacingServiceSpecification"
+        }
+    }

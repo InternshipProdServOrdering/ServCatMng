@@ -1,0 +1,31 @@
+{
+    "db_prot": "mongodb",
+    "db_user": "mongodb",
+    "db_password": "mongodb",
+    "db_host": "localhost",
+    "db_port": 27017,
+    "db_name": "tmf633",
+  
+    "alarm_host": "http://localhost:10011",
+    "alarm_url_hal": "/api/",
+  
+    "redis_host": "redis",
+    "strict_schema": true,
+  
+    "schemaValidationType": "USE_LOCAL_CACHE, USE_OPTIMISTIC_LOCAL, USE_LOCAL_MAPPING, USE_REMOTE_LOOKUP",
+  
+    "localSchemaLocation": "schema",
+  
+    "injectListenerPostings": true,
+  
+    "notExternal": true,
+    "servers" : [ { "url": "http://localhost:8620/tmf-api/serviceCatalogManagement/v4" } ], 
+    "SCHEMA_URL" : "http://localhost:8620/openapi",
+  
+  
+  
+    "hub": "EventsSubscription",
+   
+    "OPENAPI": "openapi"
+  
+}
